@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Wkasha",
+    "slug": "wkasha-native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#121417",
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.wkasha.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#121417"
+      },
+      "permissions": ["VIBRATE"]
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": false
+        }
+      ]
+    ]
+  }
+}
